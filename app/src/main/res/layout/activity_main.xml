@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.example.ct.myapplication.widget.ProgressBarGroup android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content">
+
+        <com.example.ct.myapplication.widget.ProgressBar
+                android:id="@+id/progress_outview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <com.example.ct.myapplication.widget.ProgressBarText
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">/>
+
+        </com.example.ct.myapplication.widget.ProgressBarText>
+
+    </com.example.ct.myapplication.widget.ProgressBarGroup>
+
+    <com.example.ct.myapplication.widget.WaveWaterView
+            android:layout_marginTop="20dp"
+            android:id="@+id/wavewater_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:baselineAligned="false"/>
+
+
+    <com.example.ct.myapplication.widget.ScaleView
+            android:id="@+id/scale_view"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
